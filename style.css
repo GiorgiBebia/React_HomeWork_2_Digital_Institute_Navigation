@@ -1,0 +1,31 @@
+.header{
+    padding: 10px 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    color:white;
+    font-size: 13px;
+    font-family: monospace;
+}
+.nav{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service,
+.projects,
+.about,
+.contact{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
+.contact {
+    padding: 8px 16px;
+    background-color: blue;
+    border-radius: 20px;
+}
